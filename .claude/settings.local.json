@@ -2,7 +2,12 @@
   "permissions": {
     "allow": [
       "WebSearch",
-      "Bash(git add .claude/ CLAUDE.md scripts/)"
+      "Bash(git add .claude/ CLAUDE.md scripts/)",
+      "Bash(git commit -m \"feat: Add AI agent team infrastructure\n\n- Create 5 AI agent definitions (PM, Backend, Frontend, DevOps, QA)\n- Each agent has unique GitHub identity for commit tracking\n- Add agent orchestration documentation\n- Include Sprint 1 feature specification (Task Priority)\n- Add PowerShell script for switching agent git identities\n- Agents discoverable by email pattern: *-agent-bot@todo-ai-agents.demo\n\nThis infrastructure enables TechDebtGPT to track individual AI agent\nperformance and allows the meta-agent to optimize underperforming agents.\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\")",
+      "WebFetch(domain:www.techdebtgpt.com)",
+      "Bash(tree .claude/ -L 2)",
+      "Bash(git log --all --grep=\"techdebt\" -i --oneline)",
+      "Bash(git add .claude/ scripts/)"
     ],
     "deny": [],
     "ask": []
