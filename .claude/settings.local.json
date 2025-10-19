@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "Bash(git add .claude/ CLAUDE.md scripts/)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
